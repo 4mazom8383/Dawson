@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Mohamed MAZOUZ">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="icon"  type="image/png" href="imgs/logo.png" sizes="200x200">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <style>
+            .error_style{
+                outline: 4px solid red;     
+            }
+            .validated_style{   
+                outline: 4px solid #2ecc71;
+            }
+        </style>    
+    </head>
+    <body id="body">
+
+        <header class="pages_header">
+            <nav class="container col-12">
+                <a href="index.html"><img src="imgs/logo.svg" alt="logo"></a>
+                <ul class="shown_nav">
+                    <li><a href="stages.html">Venues</a></li>
+                    <li><a href="faqs.html">FAQs</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                </ul>
+                
+                <a href="#!" onclick="now_nav()" class="hidden_nav">
+                    <img src="imgs/menu.svg" alt="menu" id="navicon">
+                    <img src="imgs/close.svg" alt="x" id="close_icon">
+                </a>
+
+                <div  class="drop_dow" id="drop_dow">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="stages.html">Venues</a></li>
+                        <li><a href="faqs.html">FAQs</a></li>
+                        <li><a href="contact.html">Contacts</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+            <!--Header Title-->
+            <div class="container">
+                <div class="col-12">
+                    <h1>Contact Us.</h1>
+                </div>
+            </div>
+            <!--/Header Title-->
+        </header>
+        <div id="body_bg"></div>
+        
+        <!--EVENT INFO-->
+        <div class="container title">
+            <div class="col-8">
+                <hr id="line">
+                <h1>We'd love to hear from you</h1>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. This event will take place on the <b>30th July</b> through to the <b>1st August</b></p>
+            </div>
+        </div>
+        <!--/EVENT INFO-->
+
+        <!--CONTACT FORM-->
+        <form class="container" id="form">
+            <div class="col-6">
+                <label id="label_name">First Name:</label>
+                <input type="text"  name="fname" id="username" placeholder="Type name here..">
+            </div>
+            <div class="col-6">
+                <label>Surname:</label>
+                <input type="text"  name="fname" id="surname" placeholder="Type surname here..">
+                <span></span>
+            </div>
+            <div class="col-6">
+                <label>Subject:</label>
+                <input type="text"  name="fname" id="subject" placeholder="Type subject here..">
+                <span></span>
+            </div>
+            <div class="col-6">
+                <label>Email Address:</label>
+                <input type="email"  name="fname" id="email" placeholder="Type email here..">
+                <span></span>
+            </div>
+
+            <div class="col-12">
+                <label>Text message:</label>
+                <textarea name="message" id="txt_mesg" placeholder="Write your message here..."></textarea>
+            </div>
+
+            <div class="col-3">
+                <p class="clear"></p>
+
+                <input type="submit" value="Submit Now"  class="action_btn">
+            </div>
+        </form> 
+        <!--CONTACT FORM-->
+        <footer class="uncontainer">
+            <div class="col-12">
+                <img src="imgs/logo.svg" alt="logo">
+                <p>all copyrights belong to their respective<br> owners © Dawson limited 2021</p>
+                <ul>
+                    <li><a href="#!"><img src="imgs/FB.svg" alt="fb"></a></li>
+                    <li><a href="#!"><img src="imgs/INSTA.svg" alt="INSTA"></a></li>
+                    <li><a href="#!"><img src="imgs/TWIITER.svg" alt="TWIITER"></a></li>
+                    <li><a href="#!"><img src="imgs/SNAPCHAT.svg" alt="snap"></a></li>
+                </ul>
+                
+            </div>
+        </footer>
+
+
+
+
+
+
+        <script src="js/script.js" ></script> 
+    </body>
+</html>
